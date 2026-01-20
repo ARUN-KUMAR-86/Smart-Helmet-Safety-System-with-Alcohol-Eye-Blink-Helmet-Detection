@@ -1,0 +1,17 @@
+Text Block Diagram
+
+  
+          IR Eye Blink Sensor
+                │
+        MQ-5 Alcohol Sensor
+                │
+     Ultrasonic Helmet Sensor
+                │
+                ▼
+         Arduino Microcontroller
+        (Data Processing & Decision)
+                │
+     ┌──────────┴──────────┐
+     │                     │
+ Buzzer + LED          Motor Relay
+ (Warning Alert)       (Engine Control)
